@@ -1,2 +1,2 @@
 var colors=["#FFFFFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"],start=document.querySelector("#start"),stop=document.querySelector("#stop");start.addEventListener("click",(function(){console.log("start"),timerId=setInterval((function(){var o,t;document.body.style.backgroundColor=colors[(o=0,t=colors.length,Math.floor(Math.random()*(t-o+1)+o))],console.log("changed on ",document.body.style.backgroundColor)}),1e3),start.disabled=!0}));var timerId=null;stop.addEventListener("click",(function(){console.log("stop"),clearInterval(timerId),start.disabled=!1}));
-//# sourceMappingURL=color-switch.995f7221.js.map
+//# sourceMappingURL=color-switch.2440d3d4.js.map
